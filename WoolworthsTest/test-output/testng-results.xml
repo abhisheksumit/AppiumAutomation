@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parameter test Suite" duration-ms="126024" started-at="2019-01-21T17:57:31Z" finished-at="2019-01-21T17:59:37Z">
+    <groups>
+    </groups>
+    <test name="Verify Login, myCart and Logout Functionality" duration-ms="126024" started-at="2019-01-21T17:57:31Z" finished-at="2019-01-21T17:59:37Z">
+      <class name="com.wfs.qa.testcases.SignInPageTest">
+        <test-method status="PASS" signature="signIn()[pri:0, instance:com.wfs.qa.testcases.SignInPageTest@1a968a59]" name="signIn" duration-ms="70514" started-at="2019-01-21T17:57:31Z" finished-at="2019-01-21T17:58:41Z">
+        </test-method> <!-- signIn -->
+      </class> <!-- com.wfs.qa.testcases.SignInPageTest -->
+      <class name="com.wfs.qa.testcases.LogOutTest">
+        <test-method status="PASS" signature="logOut()[pri:0, instance:com.wfs.qa.testcases.LogOutTest@4667ae56]" name="logOut" duration-ms="14031" started-at="2019-01-21T17:59:23Z" finished-at="2019-01-21T17:59:37Z">
+        </test-method> <!-- logOut -->
+      </class> <!-- com.wfs.qa.testcases.LogOutTest -->
+      <class name="com.wfs.qa.testcases.AddCartTest">
+        <test-method status="PASS" signature="setUpReport()[pri:0, instance:com.wfs.qa.testcases.AddCartTest@548e7350]" name="setUpReport" is-config="true" duration-ms="469" started-at="2019-01-21T17:57:30Z" finished-at="2019-01-21T17:57:31Z">
+        </test-method> <!-- setUpReport -->
+        <test-method status="PASS" signature="addCart()[pri:0, instance:com.wfs.qa.testcases.AddCartTest@548e7350]" name="addCart" duration-ms="41467" started-at="2019-01-21T17:58:41Z" finished-at="2019-01-21T17:59:23Z">
+        </test-method> <!-- addCart -->
+      </class> <!-- com.wfs.qa.testcases.AddCartTest -->
+    </test> <!-- Verify Login, myCart and Logout Functionality -->
+  </suite> <!-- Parameter test Suite -->
+</testng-results>

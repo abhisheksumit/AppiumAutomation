@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Parameter test Suite">
+
+<test name="Verify Login, myCart and Logout Functionality">
+
+<classes>
+
+<class name="com.wfs.qa.testcases.SignInPageTest"/>
+
+<class name="com.wfs.qa.testcases.AddCartTest"/>
+<class name="com.wfs.qa.testcases.LogOutTest"/>
+
+</classes>
+
+
+
+</test>
+
+</suite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parameter test Suite]">
+  <test name="Verify Login, myCart and Logout Functionality(failed)" preserve-order="true">
+    <classes>
+      <class name="com.wfs.qa.testcases.AddCartTest">
+        <methods>
+          <include name="setUpReport"/>
+          <include name="addCart"/>
+        </methods>
+      </class> <!-- com.wfs.qa.testcases.AddCartTest -->
+      <class name="com.wfs.qa.testcases.SignInPageTest">
+        <methods>
+          <include name="signIn"/>
+        </methods>
+      </class> <!-- com.wfs.qa.testcases.SignInPageTest -->
+      <class name="com.wfs.qa.testcases.LogOutTest">
+        <methods>
+          <include name="logOut"/>
+        </methods>
+      </class> <!-- com.wfs.qa.testcases.LogOutTest -->
+    </classes>
+  </test> <!-- Verify Login, myCart and Logout Functionality(failed) -->
+</suite> <!-- Failed suite [Parameter test Suite] -->
